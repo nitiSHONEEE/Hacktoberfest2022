@@ -1,0 +1,21 @@
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        def valid(nums,n):
+            for i in range(n):
+                if nums[i]==nums[n] or (abs(nums[i]-nums[n])==n-i):
+                                        return 0
+            return 1
+        
+        def rec(idk,nums,puzzle):
+                if idk==n:
+                    ans.append(puzzle)
+                    return
+                for j in range(n):
+                    nums[idk]=j
+                    if valid(nums,idk):
+                        m = '.'*n
+                        rec(idk+1,nums,puzzle+[m[:j]+'Q'+m[j+1:]])
+        ans=[]
+        rec(0,[1]*n,[])
+        return ans
+        
