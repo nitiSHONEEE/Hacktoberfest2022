@@ -5,7 +5,7 @@
   <https://www.google.com/url?sa=i&url=https%3A%2F%2Fdev.to%2Fgithub%2Fhow-to-get-ready-for-hacktoberfest-2022-2ck2&psig=AOvVaw3ezI7pi39kHIEfe-GkedLX&ust=1664646042501000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPCIsPOHvfoCFQAAAAAdAAAAABAD>
 </p>
 
-## This repository is helpful for all people who have great passion for the Ooen Source  :partying_face:
+## This repository is helpful for all people who have great passion for the Open Source  :partying_face:
 
 :star: Feel free to use this project to make your first contribution to an open-source project on GitHub. as problems should be unique so that people learn as well as contribute togeather
 
